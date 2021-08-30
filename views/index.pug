@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  .header
+    .logo 
+      h1 Message Board
+  .messages 
+    each message in messages
+      .entry 
+        h1.messageUser #{message.user}
+        p.messageTxt #{message.text}
+        p.messageDate #{message.added}
+    .new
+      a.newMessage(href='/new') New Message

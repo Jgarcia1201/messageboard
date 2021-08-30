@@ -1,0 +1,16 @@
+extends layout
+
+
+block content
+    .header
+        .logo
+            h1 Message Board
+    .content 
+        form.userInputs(action="/new" method="POST")
+            p.messageU Username
+            input.userName(name='userName' type="text")
+            p.messageM Message
+            textarea.userMessage(name='userMessage' rows="20" cols="60")
+            button.sub(type="submit") Submit
+
+

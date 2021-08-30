@@ -1,0 +1,106 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.header {
+  border: 1px solid rgb(132, 132, 255);
+  border-bottom: 2px solid black;
+  height: 7em;
+  background-color: rgb(132, 132, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 20em;
+  margin-left: 2em;
+  font-family: monospace;
+}
+
+.entry {
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
+}
+
+.new {
+  margin-top: 30px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newMessage {
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.newMessage:hover {
+  border: none;
+  background-color: rgba(128, 128, 128, 0.295);
+  border-radius: 5px;
+  width: 200px;
+}
+
+.messageUser {
+  padding-left: 1em;
+  font-size: 20px;
+}
+
+.messageTxt {
+  padding-left: 1.6em;
+}
+
+.messageDate {
+  font-size: 10px;
+  padding-left: 2em;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 80vh;
+  margin-right: auto;
+  margin-left: auto;
+  outline: none;
+}
+
+.userInputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.userName {
+  outline: none;
+}
+
+.messageU {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.userMessage {
+  outline: none;
+}
+
+.messageM {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.sub {
+  color: black;
+  width: 200px;
+  margin: 20px auto 0px auto;
+}
